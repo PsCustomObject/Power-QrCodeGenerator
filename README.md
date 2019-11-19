@@ -1,10 +1,10 @@
-# New-QrCode
+# Power-QrCodeGenerator
 
 Simple module used to generate QR Codes within PowerShell using **[QRCoder Assembly](https://github.com/codebude/QRCoder/Wiki)**. All credits to original author(s). 
 
 ## Supported payloads
 
-**QrCodeGenerator** supports all *paylods* supported by original assembly which are described [here](https://github.com/codebude/QRCoder/wiki/Advanced-usage---Payload-generators)
+**Power-QrCodeGenerator** supports all *paylods* supported by original assembly which are described [here](https://github.com/codebude/QRCoder/wiki/Advanced-usage---Payload-generators).
 
 ## How to use
 
@@ -21,3 +21,7 @@ The above example will create a QR containing access information for a network w
 Module relies on *QrCoder* dll which is embedded in module's manifest as string.
 
 **Note:** Instructions on how to embed assemblies via string can be [found here](https://pscustomobject.github.io/powershell/howto/PowerShell-Add-Assembly/).
+
+## Module Status
+
+Module is still under development all available functions are to be considered production ready as they've been tested before commit.
